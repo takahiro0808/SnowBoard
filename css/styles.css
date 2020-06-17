@@ -1,0 +1,160 @@
+body {
+	margin: 0;
+	font-size: 20px;
+	font-family: Arial;
+	color: #333;
+}
+
+header {
+	background-color: #aaaaaa;
+	color: white;
+}
+
+.container  h1{
+	margin: 0;
+}
+
+.container h2 {
+	font-size: 60px;
+	margin:0 0 0 20px;
+}
+
+.header-navigation {
+	/* background-color:red; */
+	display: flex;
+	margin: 0;
+}
+
+.header-navigation ul {
+	/* background-color: pink; */
+	margin: 0;
+	margin-left: 50%; 
+}
+
+ .header-navigation  ul li { 
+	/* background-color: violet;  */
+	display: inline;   /* リストを横並びにしている */
+	margin:0 20px 0 10px;
+}
+
+.header-navigation  a {
+	/* background-color: yellow; */
+	font-weight:  bold;
+	font-size: 16px;
+	color: white;
+}
+
+/* .form {
+	margin:0; 
+	 margin-right: 10px; 
+} */
+
+.Product-situation {
+	position: relative;
+}
+
+.Product-situation h1{
+	position: absolute;  
+	font-size: 40px;
+	color: #0c0c0cd8;
+	font-family:fantasy;
+	top: 10%;
+	left: 40%;
+}
+
+.Product-situation p {
+	position: absolute;   /* 写真の上にテキストを書いている */
+	font-size: 20px;
+	color:#0c0c0cd8;
+	top: 20%;
+	left: 40%;
+}
+
+.Product-situation img {
+	width:100%;
+
+}
+
+.concept-list-area {
+	background-color: #d3d2d2;
+	display: flex;
+}
+
+.concept h2 {
+	font-weight: normal;
+	font-size: 24px;
+	text-align: center;
+	background-color: #d3d2d2;
+	margin: 0;
+}
+
+.concept-list {
+	width: calc(100% / 3);
+}
+
+.concept img{
+	margin: 10px 10px 10px 50px;
+	width: 400px;
+	height: 300px;
+	display: block;
+}
+
+.concept-list p {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.news-info {
+	font-size: 14px;
+	background-color: white;
+	border:  10px solid;
+	border-color: #ebecee;
+	padding: 10px;
+	height: 140px;
+	overflow: scroll;
+}
+
+.news-info h3 {
+	margin: 0 0 0 5%;
+}
+
+.news-info ul li {
+	border:  1px solid;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
+	border-color: #ebecee;
+	list-style: none;
+}
+
+footer {
+	margin: 20px 0 20px 0;
+	color: #aaaaaa;
+}
+
+footer h1{
+	font-size: 30px;
+	margin: 0;
+}
+
+footer h2 {
+	font-size: 40px;
+	margin:0 0 0 20px;
+}
+
+.footer-list {
+	display: flex;
+}
+
+footer p {
+margin:  10px 10% 20px 40%;
+}
+
+footer form  :hover{
+	opacity: 0. 8;
+}
+
+/* footer a{
+	text-align: right ;
+} */

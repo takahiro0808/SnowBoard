@@ -1,0 +1,23 @@
+header h1 {
+	text-align: center;
+}
+
+.level img {
+	max-width: 50%;
+	background-color: turquoise;
+	margin: auto;
+	width: 400px;
+	height: 300px;
+	display: block;
+}
+
+.level h2 {
+	/* background-color: teal; */
+	display: inline;
+	padding: 10px;
+}
+
+footer {
+ padding: 5px;
+ margin: 0 10%  5px 80%;
+}
